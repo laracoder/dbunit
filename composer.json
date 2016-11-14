@@ -1,5 +1,5 @@
 {
-    "name": "laracoder/dbunit",
+    "name": "phpunit/dbunit",
     "description": "DbUnit port for PHP/PHPUnit to support database interaction testing.",
     "type": "library",
     "keywords": [
