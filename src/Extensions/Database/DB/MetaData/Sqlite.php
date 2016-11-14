@@ -101,4 +101,15 @@ class PHPUnit_Extensions_Database_DB_MetaData_Sqlite extends PHPUnit_Extensions_
             }
         }
     }
+
+    /**
+     * Returns a quoted schema object. (table name, column name, etc)
+     *
+     * @param  string $object
+     * @return string
+     */
+    public function quoteSchemaObject($object) {
+        $table_name = '['.$object.']';
+        return $table_name;
+    }
 }
